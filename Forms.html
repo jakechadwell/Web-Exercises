@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Register With Us!</h1>
+    <form method="POST" action="https://request-inspector.glitch.me/">
+        <div>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <br>
+            <input type="password" name="password" placeholder="Enter a Password">
+        </div>
+            <br>
+        <div>
+            <textarea name="bio" placeholder="Tell us about yourself"></textarea>
+        </div>
+            <br>
+        <div>
+            <h2>How Did You Hear About Us? (Select all that apply)</h2>
+
+<!--     Single Option at a Time:       -->
+<!--            <input type="radio" id="billboard" value="billboard" name="hear_about_us">-->
+<!--            <label for="billboard">Billboard</label>-->
+<!--                <br>-->
+<!--            <input type="radio" id="radio-ad" value="radio advertisement" name="hear_about_us">-->
+<!--            <label for="radio-ad">Radio Advertisement</label>-->
+<!--                <br>-->
+<!--            <input type="radio" id="internet-ad" value="internet advertisement" name="hear_about_us">-->
+<!--            <label for="internet-ad">Internet Advertisement</label>-->
+<!--                <br>-->
+<!--            <input type="radio" id="other" value="other" name="hear_about_us">-->
+<!--            <label for="other">Other</label>-->
+
+<!--     Multiple Options at a Time:       -->
+
+            <input type="checkbox" id="billboard" value="billboard" name="hear_about_us">
+            <label for="billboard">Billboard</label>
+                <br>
+            <input type="checkbox" id="radio-ad" value="radio advertisement" name="hear_about_us">
+            <label for="radio-ad">Radio Advertisement</label>
+                <br>
+            <input type="checkbox" id="internet-ad" value="internet advertisement" name="hear_about_us">
+            <label for="internet-ad">Internet Advertisement</label>
+                <br>
+            <input type="checkbox" id="other" value="other" name="hear_about_us">
+            <label for="other">Other</label>
+        </div>
+            <br>
+        <div>
+            <h2>Which Browser Are You Using?</h2>
+                <br>
+            <select name="Browser Choice">
+                <option value="Chrome">Chrome</option>
+                <option value="Edge">Edge</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Bing">Bing</option>
+            </select>
+        </div>
+            <br>
+        <div>
+            <input type="submit" value="Click Here to Submit">
+        </div>
+    </form>
+</body>
+</html>
