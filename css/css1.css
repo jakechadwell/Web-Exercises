@@ -1,0 +1,18 @@
+h1{
+    font-variant: small-caps;
+}
+
+table{
+    border: mediumaquamarine;
+    color: mediumaquamarine;
+    width: 100%;
+}
+
+th{
+    font-size: larger;
+    font-style: italic;
+}
+
+img{
+    border: 10px solid blue;
+}

@@ -1,0 +1,21 @@
+table{
+    border: 2px solid mediumaquamarine;
+    text-align: center;
+}
+
+th, td{
+    border-color: mediumaquamarine;
+    border: 1px solid mediumaquamarine;
+    color: mediumaquamarine;
+}
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin: 0 5em 0 5em;
+}
+
+.bg{
+    background-color: paleturquoise;
+}
